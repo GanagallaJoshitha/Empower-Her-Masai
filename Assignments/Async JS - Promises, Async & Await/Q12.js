@@ -1,3 +1,4 @@
+//Q11
 function timer(duration, onComplete) {
   setTimeout(() => {
     const message = `Timer of ${duration} ms finished`;
