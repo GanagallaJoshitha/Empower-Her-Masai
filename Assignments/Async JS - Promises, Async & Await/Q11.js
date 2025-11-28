@@ -1,6 +1,7 @@
 function displayMessage(name) {
   console.log(`Hello, ${name}!`);
 }
+
 function getUserInput(callback) {
   console.log("Fetching username...");
   setTimeout(() => {
