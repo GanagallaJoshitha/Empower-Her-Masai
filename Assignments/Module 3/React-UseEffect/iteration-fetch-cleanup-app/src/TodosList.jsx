@@ -5,11 +5,11 @@ function TodosList() {
   const [todos, setTodos] = useState([]);
 
   useEffect(() => {
-    // Fetch todos on mount
+    // Fetch todos when component mounts
     fetch("https://jsonplaceholder.typicode.com/todos")
       .then((res) => res.json())
       .then((data) => {
-        setTodos(data.slice(0, 15)); // first 15 todos
+        setTodos(data.slice(0, 15));
       });
 
     // Cleanup function (runs on unmount)
@@ -20,7 +20,7 @@ function TodosList() {
 
   return (
     <div>
-      <h2>Todo List</h2>
+      <h2>Todos List</h2>
 
       {todos.map((todo) => (
         <TodoCard
@@ -34,4 +34,4 @@ function TodosList() {
   );
 }
 
-export default TodoList;
+export default TodosList;
