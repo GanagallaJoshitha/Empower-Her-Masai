@@ -6,7 +6,8 @@ The Frontend, often called the "client-side," is everything a user sees and inte
 
 **User Interaction**: Frontend developers use languages like JavaScript to make pages interactive. This includes handling button clicks, form submissions, animations, and providing immediate feedback to user actions.
 
-**Communication with Backend**: The frontend doesn't hold the actual data (like user profiles). It sends requests to the backend (via APIs) to "ask" for information and then displays that data to the user once it receives a response.
+**Communication with Backend**: The frontend doesn't hold the actual data (like user profiles). 
+It sends requests to the backend (via APIs) to "ask" for information and then displays that data to the user once it receives a response.
 ------------------------------------------------------------------------------------------------------------------
 ## Q2. Role of Backend (BE)
 The Backend is the "server-side" of the application. It operates behind the scenes to power the frontend, managing the logic and data that the user never sees directly.
