@@ -5,7 +5,7 @@ const todoRouter = require('./routes/todos.routes');
 const app = express();
 const PORT = 3000;
 
-// 1. Built-in middleware for JSON
+
 app.use(express.json());
 
 // 2. App-level Logger Middleware (Runs for every request)
